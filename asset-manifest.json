@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/control-produccion/static/css/main.72ad95f5.css",
+    "main.js": "/control-produccion/static/js/main.feedf7ea.js",
+    "static/js/787.1e2cf2cc.chunk.js": "/control-produccion/static/js/787.1e2cf2cc.chunk.js",
+    "index.html": "/control-produccion/index.html",
+    "main.72ad95f5.css.map": "/control-produccion/static/css/main.72ad95f5.css.map",
+    "main.feedf7ea.js.map": "/control-produccion/static/js/main.feedf7ea.js.map",
+    "787.1e2cf2cc.chunk.js.map": "/control-produccion/static/js/787.1e2cf2cc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72ad95f5.css",
+    "static/js/main.feedf7ea.js"
+  ]
+}
