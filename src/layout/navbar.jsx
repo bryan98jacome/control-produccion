@@ -13,14 +13,14 @@ export default function Navigation() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav className="me-auto">
-                            <Nav.Link href="/">Inicio</Nav.Link>
+                            <Nav.Link href="../">Inicio</Nav.Link>
                             <NavDropdown title="Añadir" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="/addproduction">Producción</NavDropdown.Item>
-                                <NavDropdown.Item href="/">Pedido</NavDropdown.Item>
+                                <NavDropdown.Item href="../addproduction">Producción</NavDropdown.Item>
+                                <NavDropdown.Item href="../">Pedido</NavDropdown.Item>
                                 <NavDropdown.Divider />
-                                <NavDropdown.Item href="/">Reingreso</NavDropdown.Item>
+                                <NavDropdown.Item href="../">Reingreso</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="/addproduct">Add Producto</Nav.Link>
+                            <Nav.Link href="../addproduct">Add Producto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
