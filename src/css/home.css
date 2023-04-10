@@ -1,0 +1,41 @@
+.main-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.main-home h1 {
+    text-align: center;
+}
+
+.div-obrepot {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section-repot {
+    width: 80%;
+    margin: 25px 0 25px 0;
+    padding: 25px;
+    border: solid 1px rgba(0, 0, 0, 0.149);
+    border-radius: 5px;
+}
+
+.td-sininfo {
+    text-align: center;
+}
+
+@media(max-width: 500px) {
+    .section-repot {
+        width: 95%;
+        padding: 5px;
+        overflow-x: auto;
+    }
+
+    .div-obrepot {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,52 @@
+.main-addProdu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.main-addProdu h1 {
+    text-align: center;
+}
+
+.div-addProdu {
+    width: 80%;
+    margin-top: 25px;
+    padding: 25px;
+    border: solid 1px rgba(0, 0, 0, 0.149);
+    border-radius: 5px;
+}
+
+.div-addProdu Table thead {
+    background-color: rgba(9, 9, 250, 0.782) !important;
+    color: white;
+}
+
+.div-addProdu Table tbody input {
+    border: solid 1px rgba(0, 0, 0, 0.149);
+    border-radius: 5px;
+    height: 37px;
+    width: 5%;
+}
+
+.div-btnGenerar {
+    margin: 25px 0 50px 0;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width: 700px) {
+    .inpt-textarea {
+        min-width: 125px !important;
+        white-space: pre-wrap !important;
+    }
+}
+
+@media(max-width: 500px) {
+    .div-addProdu {
+        width: 95%;
+        padding: 5px;
+        overflow-x: auto;
+    }
+}

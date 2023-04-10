@@ -1,0 +1,28 @@
+.main-addProd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.main-addProd h1{
+    text-align: center;
+}
+
+.div-form {
+    width: 50%;
+    margin: 25px 0 25px 0;
+    padding: 25px;
+    border: solid 1px rgba(0, 0, 0, 0.149);
+    border-radius: 5px;
+}
+
+@media(max-width: 500px) {
+    .div-form {
+        width: 95%;
+        margin: 25px 0 25px 0;
+        padding: 25px;
+        border: solid 1px rgba(0, 0, 0, 0.149);
+        border-radius: 5px;
+    }
+}
