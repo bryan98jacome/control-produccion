@@ -2,9 +2,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useNavigate } from 'react-router-dom';
 
 export default function Navigation() {
+
+    const navigate = useNavigate();
+
+    function clickAddProduct() {
+        navigate('../control-produccion/addproduct');
+    }
     return (
         <main>
             <Navbar bg="light" expand="lg">
@@ -20,7 +26,7 @@ export default function Navigation() {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="../control-produccion/">Reingreso</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="../control-produccion/addproduct">Add Producto</Nav.Link>
+                            <Nav.Link onClick={clickAddProduct} >Add Producto</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
