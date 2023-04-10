@@ -8,9 +8,9 @@ export default function Navigation() {
 
     const navigate = useNavigate();
 
-    function clickAddProduct() {
-        navigate('../control-produccion/addproduct');
-    }
+    function clickProduccion() { navigate('../control-produccion/addproduction') }
+    function clickAddProduct() { navigate('../control-produccion/addproduct'); }
+
     return (
         <main>
             <Navbar bg="light" expand="lg">
@@ -21,7 +21,7 @@ export default function Navigation() {
                         <Nav className="me-auto">
                             <Nav.Link href="../control-produccion/">Inicio</Nav.Link>
                             <NavDropdown title="Añadir" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="../control-produccion/addproduction">Producción</NavDropdown.Item>
+                                <NavDropdown.Item onClick={clickProduccion}>Producción</NavDropdown.Item>
                                 <NavDropdown.Item href="../control-produccion/">Pedido</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="../control-produccion/">Reingreso</NavDropdown.Item>
