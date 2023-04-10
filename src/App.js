@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/control-produccion' element={<Navbar />} >
+        <Route path='/' element={<Navbar />} >
           <Route index element={<Home />} />
           <Route path='addproduction' element={<AddProduction />} />
           <Route path='addproduct' element={<AddProduct />} />
